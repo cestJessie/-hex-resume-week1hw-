@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+* {
+	outline: 1px solid red;
+} */
+
+＊,
+＊:before,
+＊:after {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+/* css reset end*/
+
+/* css style */
+body {
+	font-family: "Castoro", serif;
+	/*  字體則可以設定在 body 標籤來讓內層元素繼承字型  */
+	line-height: 1.5;
+	/* 統一文字行高，由於該設計稿的行高都是 1.5 倍，設定完後其他標籤就不用另外寫行高*/
+	font-size: 24px;
+}
+
+.mt-160 {
+	margin-top: 160px;
+}
+
+.container {
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+.title-1 {
+	font-size: 128px;
+	/* 字距 */
+	letter-spacing: 0.12em;
+	max-width: 636px;
+}
+
+.vitoImg {
+	display: block;
+	max-width: 636px;
+}
+
+/* 水平置中圖片 */
+.mx-auto {
+	margin: 0 auto;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.bg-gray {
+	background-color: #EFEFEF;
+}
+
+.mb-80 {
+	margin-bottom: 80px;
+}
+
+.p-48 {
+	padding: 48px;
+}
+
+.text-middle {
+	font-size: 32px;
+}
+
+.mw-636 {
+	max-width: 636px;
+}
+
+/* 區塊達到置右的效果 */
+.ml-auto {
+	margin-left: auto;
+}
+
+.title {
+	font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid #AE0000;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+
+.mb-8 {
+	margin-bottom: 8px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+.year {
+	font-size: 20px;
+	color: #949494;
+	font-style: italic;
+}
+
+.mb-160 {
+	margin-bottom: 160px;
+}
+
+.mb-12 {
+	margin-bottom: 12px;
+}
+
+.footer {
+	background-color: #000000;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	/* 讓內層有行內元素特性的元素水平置中 */
+	text-align: center;
+}
+
+.footer-item {
+	/* 讓元素變成行內的方式呈現，同時有區塊元素的特性。 */
+	display: inline-block;
+}
+
+.mr-40 {
+	margin-right: 40px;
+}
+
+.footer-item a:hover {
+	opacity: 0.8;
+}
